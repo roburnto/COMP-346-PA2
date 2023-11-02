@@ -1,0 +1,11 @@
+One CharStackProber thread has been created.
+CharStackProber thread [TID=5] starts executing.
+CharStackProber thread [TID=5] caught exception: CharStackInvalidAceessException
+CharStackProber thread [TID=5] caught exception: CharStackInvalidAceessException
+CharStackProber thread [TID=5] caught exception: CharStackInvalidAceessException
+CharStackProber thread [TID=5] caught exception: CharStackInvalidAceessException
+CharStackProber thread [TID=5] caught exception: CharStackInvalidAceessException
+CharStackProber thread [TID=5] caught exception: CharStackInvalidAceessException
+System terminates normally.
+Stack access count = 81
+Stack S = [[a],[b],[c],[d],[$],[$],[$],[$],[$],[$]]

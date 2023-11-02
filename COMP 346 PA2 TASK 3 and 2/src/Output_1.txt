@@ -1,0 +1,46 @@
+Main thread starts executing.
+Initial value of top = 3.
+Initial value of stack top = d.
+Main thread will now fork several threads.
+Two Consumer threads have been created.
+Two Producer threads have been created.
+One CharStackProber thread has been created.
+Consumer thread [TID=1] starts executing.
+Consumer thread [TID=2] starts executing.
+Producer thread [TID=3] starts executing.
+Producer thread [TID=4] starts executing.
+CharStackProber thread [TID=5] starts executing.
+CharStackProber thread [TID=5] caught exception: CharStackInvalidAceessException
+Message: Invalid stack access.
+CharStackProber thread [TID=5] caught exception: CharStackInvalidAceessException
+Message: Invalid stack access.
+CharStackProber thread [TID=5] caught exception: CharStackInvalidAceessException
+Message: Invalid stack access.
+CharStackProber thread [TID=5] caught exception: CharStackInvalidAceessException
+Message: Invalid stack access.
+CharStackProber thread [TID=5] caught exception: CharStackInvalidAceessException
+Message: Invalid stack access.
+CharStackProber thread [TID=5] caught exception: CharStackInvalidAceessException
+Message: Invalid stack access.
+Producer thread [TID=3] pushes character =c
+Producer thread [TID=4] pushes character =d
+Consumer thread [TID=2] pops character =c
+Producer thread [TID=4] pushes character =f
+Producer thread [TID=3] pushes character =e
+Consumer thread [TID=1] pops character =d
+Producer thread [TID=3] pushes character =g
+Producer thread [TID=4] pushes character =f
+Consumer thread [TID=2] pops character =f
+Consumer thread [TID=1] pops character =g
+Consumer thread [TID=2] pops character =f
+Producer thread [TID=4] terminates.
+Producer thread [TID=3] terminates.
+Consumer thread [TID=1] pops character =e
+Consumer thread [TID=2] terminates.
+Consumer thread [TID=1] terminates.
+System terminates normally.
+Final value of top = 3.
+Final value of stack top = d.
+Final value of stack top-1 = c.
+Stack access count = 81
+Stack S = [[a],[b],[c],[d],[$],[$],[$],[$],[$],[$]]
